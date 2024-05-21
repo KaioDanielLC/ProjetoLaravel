@@ -14,4 +14,9 @@
             </div>
         </div>
     </div>
+    <div>
+
+        <a class="text-white" href="{{route('servicos.index')}}">serviços</a>
+
+    </div>
 </x-app-layout>
