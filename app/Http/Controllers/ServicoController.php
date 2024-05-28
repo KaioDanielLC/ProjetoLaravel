@@ -45,7 +45,7 @@ class ServicoController extends Controller
             'preco'=>$request->input('preco'),
         ]);
         if($created){
-            return redirect()->back()->with('message', 'serviço criado');
+            return redirect()->route('servicos.index')->with('message', 'serviço criado');
         };
 
         return redirect()->back()->with('message', 'erro');
@@ -76,7 +76,7 @@ class ServicoController extends Controller
         $update = $this->servico->where('id', $id)->update($request->except(['_token', '_method']));
         if($update){
             
-            return redirect()->back()->with('message', 'Update feito');
+            return redirect()->route('servicos.index')->with('message', 'Update feito');
         }
         
         
@@ -89,6 +89,6 @@ class ServicoController extends Controller
     {
         $id = $servico->id;
         $this->servico->where('id', $id)->delete();
-        return redirect()->route('servicos.index');
+        return redirect()->route('servicos.index')->with('message', 'Serviço deletado');
     }
 }
