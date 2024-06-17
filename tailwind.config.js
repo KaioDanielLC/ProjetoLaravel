@@ -14,6 +14,13 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            colors:{
+                'primaria':'#272727',
+                'segundaria':'#f685f0',
+                'fundo':'#181818',
+                'botao': '#ba46b7',
+                'botaoHover': '#7f077e'
+            }
         },
     },
 

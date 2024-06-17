@@ -23,7 +23,7 @@ class ServicoController extends Controller
     {
         $servicos = $this->servico->all();
 
-        return view('servicos', ['servicos' => $servicos]);
+        return view('pages/servicos/list', ['servicos' => $servicos]);
     }
 
     /**
@@ -31,7 +31,7 @@ class ServicoController extends Controller
      */
     public function create()
     {
-        return view('create_servico');
+        return view('pages/servicos/create');
     }
 
     /**
@@ -56,7 +56,7 @@ class ServicoController extends Controller
      */
     public function show(servico $servico)
     {
-        return view('show_servico', ['servico'=>$servico]);
+        return view('pages/servicos/show', ['servico'=>$servico]);
     }
 
     /**
@@ -64,7 +64,7 @@ class ServicoController extends Controller
      */
     public function edit(servico $servico)
     {
-        return view('edit_servico',['servico' =>$servico]);
+        return view('pages/servicos/edit',['servico' =>$servico]);
     }
 
     /**

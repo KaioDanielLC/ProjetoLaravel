@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\CategoriaController;
+use App\Http\Controllers\ProdutoController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -17,7 +19,11 @@ use App\Http\Controllers\ServicoController;
 // Route::put('/servicos/{servico}', [ServicoController::class, 'update'])->name('servicos.update');
 // Route::delete('/servicos/{servico}', [ServicoController::class, 'destroy'])->name('servicos.destroy');
 
+
 Route::resource('servicos', ServicoController::class)->withTrashed()->middleware(['auth', 'verified']);
+Route::resource('categorias', CategoriaController::class)->withTrashed()->middleware(['auth', 'verified']);
+Route::resource('produtos', ProdutoController::class)->withTrashed()->middleware(['auth', 'verified']);
+
 
 
 Route::get('/', function () {

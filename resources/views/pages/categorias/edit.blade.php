@@ -1,0 +1,22 @@
+<x-app-layout>
+    <div class="flex justify-center items-center" style="min-height: 85vh;">
+        <div class="bg-primaria shadow-2xl w-2/6 p-10 rounded-lg">
+            <div class="text-gray-200 text-3xl text-center min-w-full mb-4">
+                Atualizar Serviços
+            </div>
+            <form action="{{route('categorias.update' , ['categoria' => $categoria->id])}}" method="post">
+                @csrf
+                <input type="hidden" name="_method" value="PUT">
+                <div class="grid gap-4 ">
+                    <div>
+                        <label for="nome" class="block mb-2 text-sm font-medium dark:text-white">Nome</label>
+                        <input value="{{$categoria->nome}}" name="nome" id="nome" required type="text" class="focus:border-segundaria focus:ring-segundaria rounded-lg min-w-full bg-primaria text-white min-w-full ">
+                    </div>
+                    <div>
+                        <input type="submit" value="Atualizar" class="focus:outline-none text-white focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-botao dark:hover:bg-botaoHover dark:focus:ring-botao ">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</x-app-layout>
