@@ -9,7 +9,7 @@
                 <div class="grid gap-4 ">
                     <div>
                         <label for="nome" class="block mb-2 text-sm font-medium dark:text-white">Nome</label>
-                        <input name="nome" id="nome" required type="text" class="focus:border-segundaria focus:ring-segundaria rounded-lg min-w-full bg-primaria text-white  ">
+                        <input name="nome" id="nome" required type="text"  class="focus:border-segundaria focus:ring-segundaria rounded-lg min-w-full bg-primaria text-white  ">
                     </div>
                     <div>
                         <label class="block mb-2 text-sm font-medium dark:text-white" for="categoria_id">Categoria </label>

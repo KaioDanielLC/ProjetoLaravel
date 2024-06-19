@@ -13,7 +13,7 @@
                         <input value="{{$categoria->nome}}" name="nome" id="nome" required type="text" class="focus:border-segundaria focus:ring-segundaria rounded-lg min-w-full bg-primaria text-white min-w-full ">
                     </div>
                     <div>
-                        <input type="submit" value="Atualizar" class="focus:outline-none text-white focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-botao dark:hover:bg-botaoHover dark:focus:ring-botao ">
+                        <input type="submit" value="Atualizar" required class="focus:outline-none text-white focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-botao dark:hover:bg-botaoHover dark:focus:ring-botao ">
                     </div>
                 </div>
             </form>
