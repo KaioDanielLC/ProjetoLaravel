@@ -27,7 +27,7 @@ Route::resource('produtos', ProdutoController::class)->withTrashed()->middleware
 
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth/register');
 });
 
 Route::get('/dashboard', function () {
