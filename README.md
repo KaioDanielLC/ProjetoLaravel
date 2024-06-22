@@ -15,7 +15,15 @@ O objetivo do projeto foi criar 3 Cruds simples no Laravel utilazando o Tailwind
     
 
 ## Layout do projeto
-
+<p>
+    <img src="{{asset('img/Serviços.png')}}" alt="logo"
+</p>
+<p>
+    <img src="{{asset('img/Categoria.png')}}" alt="logo"
+</p>
+<p>
+    <img src="{{asset('img/CriarProduto.png')}}" alt="logo"
+</p>
 
 
 ## Tecnologias utilizadas
