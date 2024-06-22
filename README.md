@@ -9,31 +9,35 @@
 
 ## Sobre o projeto
 
-Esse projeto foi criado para colocar em prática o conhecimentos adquirido nas aulas sobre Laravel Breeze do nosso professor do curso.
+Esse projeto foi criado para colocar em prática o conhecimentos adquirido nas aulas sobre Laravel do nosso professor do curso.
 
-O objetivo do projeto foi criar 3 Cruds simples no Laravel utilazando o Tailwind para estilização
+O objetivo do projeto foi criar 3 Cruds simples no Laravel
     
 
 ## Layout do projeto
 <p>
-    <img src="{{asset('img/Serviços.png')}}" alt="logo"
+    <img src="public/img/Serviços.png" alt="Serviço" borderradius="100" style="border-radius: 50%;">
 </p>
 <p>
-    <img src="{{asset('img/Categoria.png')}}" alt="logo"
+    <img src="public/img/Categoria.png" alt="categoria"
 </p>
 <p>
-    <img src="{{asset('img/CriarProduto.png')}}" alt="logo"
+    <img src="public/img/CriarProduto.png" alt="criarproduto"
 </p>
 
 
 ## Tecnologias utilizadas
 
-- **Laravel Breeze**
-- **Tailwind**
+<div>
+    <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg">
+    <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg">
+    <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg">
+    <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg">
+</div>
 
 
-## Autor
-
+## Contatos
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/kaio_daniel2.0/)
 
 
 
