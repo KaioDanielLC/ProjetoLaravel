@@ -37,7 +37,7 @@ O objetivo do projeto foi criar 3 Cruds simples no Laravel
 
 
 ## Contatos
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/kaio_daniel2.0/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/kaio.dnl/)
 
 
 
